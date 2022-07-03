@@ -2,7 +2,7 @@
 FROM quay.io/redhattraining/httpd-parent
 
 LABEL io.k8s.display-name="Apache Webserver" \
-      io.k8s.description="Apache" 
+      io.k8s.description="Apache" \
       io.openshift.expose-services="8080:http" \
       io.openshift.tags="apache, webserver"
 
