@@ -1,4 +1,5 @@
 #!/bin/bash
+# customized
 
 source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 
